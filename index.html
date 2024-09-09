@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Os dêmonios de Arthur</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <head><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu4MBfGYHVmaTWDF06w1nuKMzjEm9VKdSNjQ&s" alt="300px" width="300px" height="300px"></head> 
+            <img src="cenario-passo0.png" alt="">
+            <p>Em uma pequena ilha, um agente de uma organização segreta estava pronto para inicar sua missão, "Achar o motivo do paranormal aparecer e resolver após reportar á Nexos", ao pisar na ilha depois de sair do seu barco pegueno, o garoto chamado Arthur pega sua sniper e se prepara para a ação. Ao andar um pouco sobre o local ele avista um pegueno vilarejo e com alguns tecidos ele esconde a sniper em suas costas, qual abordagem ele deve ter? São mais ou menos 22:00. </p>
+            <button class="btn-proximo" data-proximo="1">Entrar de forma silênciosa</button>
+            <button class="btn-proximo" data-proximo="2">Entrar pelo portão da frente</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Ao pensar melhor, você resolve entrar pelas sombras, avistando diversos moradores que aparentam ser amigaveis. Ao olhar melhor você vê um deles entrando em uma certa igreja de forma suspeita e outro indo até uma certa prisão do vilarejo.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o homem da igreja</button>
+            <button class="btn-proximo" data-proximo="4">Seguir o possivel guarda até a prisão</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="cenario-passo11-cidade-perdida.png"
+            <p>Você esconde sua sniper de forma mais culdadosa e resolve entrar pelo potão da frente, ao entrar, Arthur já percebe muitas pessoas indo em sua direção. Muitas pessoas curiosas e outras qustionando seu objetivo na ilha ou como ele chegou até o local.</p>
+            <button class="btn-proximo" data-proximo="5">Contar a eles sobre ser um comerciante em busca de novas rotas de comercio.</button>
+            <button class="btn-proximo" data-proximo="6">Uma pessoas perdida que foi parar até ali por acaso.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <head><img src="data:image/jpeg;base64,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" alt="300px" width="300px" height="300px"></head>
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Ao seguir o homem da igreja, você percebe que ele esta rezando para um gande quadro de uma criatura, sem rosto, encapuzada e corcunda. O homem começa a fazer um circulo com uma espécie de gosma preta no chão, com seus conhecimentos você sabe que essa gosma é paranormal. o que fazer?</p>
+            <button class="btn-proximo" data-proximo="7">Invadir a igreja e parar o homem</button>
+            <button class="btn-proximo" data-proximo="8">Ficar em silêncio e ver o que ocorre, para obter mais informações.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Ao seguir o guarda, ele vai até uma cela da prisão, onde havia um homem morto e um quadro ao lado de seu corpo, após algum tempo tentando entender o contexto da cena o guarda percebe Arthur e questiona sua identidade. Mas não á mais tempo, um sino toca e confunde sua mente. Antes do guarda puxar sua arma, uma criatura de 2m de altura saí do quadro mostrando sua aparência gosmenta e agressiva e ataca o policial, o dissolvendo dentro do seu rosto, que era um vazio como nenhum outro.</p>
+            <button class="btn-proximo" data-proximo="9">Atirar na criatura</button>
+            <button class="btn-proximo" data-proximo="10">Avisar no rádio da Nexos e pedir reforço.</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Ao tentar explicar sua situação, você ouve um sino muito baixo, ao olhar para uma igreja e uma prisão da vila, o agente vê duas criaturas formadas por um certo lodo ou tinta que derrete tudo que toca. Arthur chama reforço e vai para...</p>
+            <button class="btn-proximo" data-proximo="11">Ir até a criatura da igreja.</button>
+            <button class="btn-proximo" data-proximo="12">Ir até a criatura da prisão.</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Ao tentar explicar sua situação, você ouve um sino muito baixo, ao olhar para uma igreja e uma prisão da vila, o agente vê duas criaturas formadas por um certo lodo ou tinta que derrete tudo que toca. Arthur chama reforço e tenta...</p>
+            <button class="btn-proximo" data-proximo="13">Puxar a sniper e tentar acerta as duas criaturas.</button>
+            <button class="btn-proximo" data-proximo="14">Ajudar as pessoas a sair do local.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Arthur temendo o que pode ocorrer, entra na igreja para a surpresa do homem e o nocauteia, com um soco e elerta a Nexos sobre o quadro,  antes de sentir um arrepio e um som de sino muito alto, e ver as pessoas do vilarejo correr o mais rápido possivel. O homem que foi derrubado se levanta e começar a correr...Escolha o caminho.</p>
+            <button class="btn-proximo" data-proximo="15">Ir em direção as pessoas.</button>
+            <button class="btn-proximo" data-proximo="16">Correr atrás do homen.</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <head><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMWH2nh7W9MXnUKcYFe5Vz9r57yR-UheGRtw&s" alt="300px" width="300px" height="300px"></head>
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Arthur deixa o homem fazer o ritual e sendo atacado por tras, acaba caindo no chão desmaiado...</p>
+            <h2>A criatura se libertou e destruiu as pessoas da ilha. Você morreu!</h2>
+        </div>
+        <div class="passo" id="passo-9">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Arthur entra em combate com a criatura e a elimina. após pedir reforço, a Nexos manda ajuda e você elimina uma segunda criatura. porém algumas pessoas morreram perto da igreja.</p>
+            <h2>Arthur salvou a ilha e algumas pessoas. A missão foi um sucesso, volte para a base e continue seu trabalho!</h2>
+        </div>
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Arthur pede reforço, mas acaba sendo atacado sem a sniper e tem o mesmo destino do guarda.....porém o reforço chega e elimina as criaturas</p>
+            <h2>Você morreu! Porém não foi em vão!</h2>
+        </div>
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Arthur elimina a criatura da igreja e explica a situação para a Nexos. Logo depois parte em um combate com a segunda criatura, sendo ferido de forma critica, mas o reforço chega e resolve o caos..</p>
+            <h2>Você salvou o vilarejo e saiu com vida. meus parabéns, retorne e continue seu trabalho!</h2>
+        </div>
+        <div class="passo" id="passo-12">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Você segue a criatura da prisão e um guarda o ajudou em sua missão de eliminar uma delas. A segunda é derrotada por vocês novamente e se dissolve.</p>
+            <h2>Você salvou a ilha! Continue assim...</h2>
+        </div>
+        <div class="passo" id="passo-13">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <h2>As pessoas são a sua prioridade. Você nunca fez essa escolha...</h2>
+        </div>
+        <div class="passo" id="passo-14">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>Você ajuda as pessoas a sairém do local enquanto segura as criaturas. Ajudar as pessoas a sairém do local deu tempo o suficiente para o reforço chegar e ajuda Arthur a dizimar os monstros paranormais.</p>
+            <h2>Você salvou as pessoas e ainda dizimou as criaturas, Meus parabéns a missâo foi quase perfeita!!</h2>
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>O agente se dirige aos gritos das pessoas e vê uma criatura de tinta vermelha derretida. O garoto retira de seu bolson um caderno e o abre, com uma página com um simbolo estranho ele passa a mão por cima e com uma magia a criatura termina de derreter como se ela fosse incendiada.</p>
+            <h2>A criatura foi destruida, mas o homem fugiu. Volte para Nexos e reporte a situação completa.</h2>
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="cenario-passo4-voltar-casa.png" alt="">
+            <p>O agente corre atras do homem e ignora os gritos. Arthur alcança o homem na beira de um penhasco, as ultimas palavras antes dele se jogar do local eram "Ele vai voltar, de um jeito ou de outro"</p>
+            <h2>Você voltou a vila e viu apenas destruição, a criatura foi destruida pelos reforços e Arthur deu o seu relatório com remorço sobre as mortes. Continue fazendo essas missões e encontre suas respostas!</h2>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
